@@ -1,0 +1,25 @@
+{
+  "role": {
+    "id": "owner",
+    "name": "Dueño",
+    "priority": 9999,
+    "color": "#ff0000",
+
+    "after_name": {
+      "enabled": true,
+      "icon": "⛔️",
+      "label": "Dueño"
+    },
+
+    "permissions": {
+      "administrator": true,
+      "all": true
+    }
+  },
+
+  "assign_to": {
+    "shapes_user": {
+      "username": "@ofctadeo"
+    }
+  }
+}
